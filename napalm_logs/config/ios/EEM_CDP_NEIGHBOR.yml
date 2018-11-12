@@ -14,4 +14,10 @@ messages:
     model: NO_MODEL
     mapping:
       static: {}
-      variables: {}
+      variables:
+        eem//cdp-neighbor//applet: eem_applet
+        eem//cdp-neighbor//port_tankstelle: port_tankstelle
+        eem//cdp-neighbor//interface: interface
+        eem//cdp-neighbor//device_fqdn: device_fqdn
+        eem//cdp-neighbor//model: model
+        eem//cdp-neighbor//version: version
