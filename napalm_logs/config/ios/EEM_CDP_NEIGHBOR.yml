@@ -1,0 +1,17 @@
+#<189>2509: tankstelle_1-r: Nov 12 17:14:51.162: %HA_EM-5-LOG: ZTP-CDP-GigabitEthernet0/1/1: New neighbor detected: port2; GigabitEthernet0/1/1; tankstelle_1-port2-dev.ztp-domain; cisco WS-C3850-24U; Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.8.1a, RELEASE SOFTWARE (fc1)
+
+messages:
+  - error: EEM_CDP_NEIGHBOR
+    tag: HA_EM-5-LOG
+    values:
+      eem_applet: (.*)
+      port_tankstelle: (\w+)
+      interface: ([^;]*)
+      device_fqdn: (([^;]*)
+      model: (([^;]*)
+      version: (.*)
+    line: '{eem_applet}: New neighbor detected: {port_tankstelle}; {interface}; {device_fqdn}; {model}; {version}'
+    model: NO_MODEL
+    mapping:
+      static: {}
+      variables: {}
