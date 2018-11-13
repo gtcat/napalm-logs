@@ -1,0 +1,1 @@
+<189>2576: tankstelle_1-r: Nov 13 16:11:13.100: %HA_EM-5-LOG: ZTP-CDP-GigabitEthernet0/1/1: New neighbor detected: port2; GigabitEthernet0/1/1; tankstelle_1-port2-dev.ztp-domain; cisco WS-C3850-24U; Cisco IOS Software [Fuji], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.8.1a, RELEASE SOFTWARE (fc1)
