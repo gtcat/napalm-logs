@@ -18,9 +18,9 @@
   "severity": 5,
   "yang_message": {
     "eem": {
-      "cdp-neighbor": {
+      "cdp_neighbor": {
         "applet": "ZTP-CDP-GigabitEthernet0/1/1",
-        "port_tankstelle": "port2",
+        "ps_port": "port2",
         "device_fqdn": "tankstelle_1-port2-dev.ztp-domain",
         "model": "cisco WS-C3850-24U",
         "interface": "GigabitEthernet0/1/1",
